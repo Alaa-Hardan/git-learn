@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { TestComponent } from './test/test.component';
 import { BranchComponent } from './branch/branch.component';
+import { ScrollComponent } from './scroll/scroll.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TestComponent,
-    BranchComponent
+    BranchComponent,
+    ScrollComponent
   ],
   imports: [
     BrowserModule
